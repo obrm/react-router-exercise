@@ -1,7 +1,7 @@
 import { Link, useParams } from 'react-router-dom';
 
 const Product = ({ products }) => {
-  
+  // Your code here...
   return (
     <div className="product-detail-container">
       <h2>{product.name}</h2>
@@ -14,6 +14,7 @@ const Product = ({ products }) => {
           <span className="out-of-stock">Out of Stock</span>
         )}
       </div>
+      {/* Your code here... */}
     </div>
   );
 };

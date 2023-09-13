@@ -4,8 +4,10 @@ import { useParams, useNavigate } from 'react-router-dom';
 import { products } from '../mock/mockData';
 
 const EditProduct = () => {
+  // Your code here...
+
   const [formData, setFormData] = useState({
- 
+    // Your code here...
   });
 
   const handleChange = (e) => {
@@ -17,6 +19,7 @@ const EditProduct = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    // Your code here...
   };
 
   return (
