@@ -18,12 +18,15 @@ import {
 import { user, products } from './mock/mockData.js';
 
 const routes = [
-  
+  // Your Code Here
 ];
 
 const App = () => {
+  // Your Code Here
+
   return (
     <>
+      {/* Your Code Here */}
      
     </>
   );

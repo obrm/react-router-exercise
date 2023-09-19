@@ -9,6 +9,8 @@ const AddProduct = () => {
     stock: 0
   });
 
+  // Your Code here
+
   const handleChange = (e) => {
     const { name, value } = e.target;
     setProduct(prev => ({ ...prev, [name]: value }));
@@ -23,6 +25,8 @@ const AddProduct = () => {
       price: 0,
       stock: 0
     });
+
+    // Your Code here
   };
 
   return (
